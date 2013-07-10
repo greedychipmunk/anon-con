@@ -36,7 +36,7 @@ const int SIDE_BUTTON_HEIGHT = 92;
     RootView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     [self.view addSubview:RootView];
     
-    sideMenuView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width * .20, self.view.frame.size.height)];
+    sideMenuView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width * .32, self.view.frame.size.height)];
     [sideMenuView setBackgroundColor:UIColorFromRGB(0x2c3e50)];
     [RootView addSubview:sideMenuView];
     
